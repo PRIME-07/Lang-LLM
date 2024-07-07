@@ -8,7 +8,7 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 
-# Load files from .evn file
+# Load files from .env file
 load_dotenv()
 
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")

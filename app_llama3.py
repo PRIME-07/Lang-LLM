@@ -8,7 +8,7 @@ import os
 from dotenv import load_dotenv
 
 
-# Load files from .evn file
+# Load files from .env file
 load_dotenv()
 
 
